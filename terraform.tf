@@ -1,7 +1,9 @@
 terraform {
   cloud {
+    organization = "classmethod-sandbox"
+
     workspaces {
-      name = "learn-terraform-drift-and-opa"
+      name = "kazue-learn-terraform-drift-and-opa"
     }
   }
 
